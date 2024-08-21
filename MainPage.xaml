@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             Title="Inicio"
+             Background="#D2BD7C">
+
+    <Grid 
+        RowDefinitions="Auto, *, Auto">
+        
+        <!-- Logo -->
+        <StackLayout 
+            Grid.Row="0" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center">
+            
+            <Image 
+                Source="aplogo.png" 
+                WidthRequest="100" 
+                HeightRequest="100"
+                />
+            
+            <Label 
+                Text="TradNativo" 
+                FontSize="Large" 
+                HorizontalOptions="Center"
+                />
+
+            <Label 
+                Text="Comunicación sin fronteras" 
+                FontSize="Small" 
+                HorizontalOptions="Center"
+                />
+        </StackLayout>
+
+        <!-- Botones -->
+        <Grid 
+            Grid.Row="1" 
+            Padding="50" 
+            ColumnSpacing="20" 
+            RowSpacing="100">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition 
+                    Height="Auto"
+                    />
+                <RowDefinition 
+                    Height="Auto"
+                    />
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition 
+                    Width="*"/>
+                <ColumnDefinition 
+                    Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- botones -->
+
+            <StackLayout 
+                Grid.Row="0" 
+                Grid.Column="0" 
+                HorizontalOptions="Center">
+                <ImageButton 
+                    Source="logohome.png" 
+                    WidthRequest="150" 
+                    HeightRequest="150"
+                    x:Name="Inicio"
+                    Clicked="Inicio_Clicked"
+                    BackgroundColor="Transparent"
+                    />
+                <Label 
+                    Text="INICIO" 
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    Margin="0,20,0,0"
+                    FontSize="Large"
+                    />
+            </StackLayout>
+
+            <StackLayout 
+                Grid.Row="1" 
+                Grid.Column="1" 
+                HorizontalOptions="Center">
+
+                <ImageButton 
+                    Source="perfil.png" 
+                    WidthRequest="150" 
+                    HeightRequest="150"
+                    x:Name="Informacion"
+                    Clicked="Informacion_Clicked"
+                    BackgroundColor="Transparent"
+                    />
+                <Label 
+                    Text="FAVORITOS" 
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    Margin="0,20,0,0"
+                    FontSize="Large"
+                    />
+            </StackLayout>
+
+            <StackLayout 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                HorizontalOptions="Center">
+                <ImageButton 
+                    Source="logologin.png" 
+                    WidthRequest="150" 
+                    HeightRequest="150"
+                    x:Name="Perfil"
+                    Clicked="Perfil_Clicked"
+                    BackgroundColor="Transparent"
+                    />
+                <Label 
+                    Text="PERFIL" 
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    Margin="0,20,0,0"
+                    FontSize="Large"
+                    />
+            </StackLayout>
+
+            <StackLayout 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                HorizontalOptions="Center">
+                <ImageButton 
+                    Source="traductor.png" 
+                    WidthRequest="150" 
+                    HeightRequest="150"
+                    x:Name="Traductor"
+                    Clicked="Traductor_button"
+                    BackgroundColor="Transparent"
+                    />
+                <Label 
+                    Text="TRADUCTOR" 
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    Margin="0,20,0,0"
+                    FontSize="Large"                    
+                    />
+            </StackLayout>
+
+        </Grid>
+    </Grid>
+
+</ContentPage>

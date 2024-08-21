@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Ventanas.Informacion"
+             Title="Informacion"
+             BackgroundColor="Black">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout>
+
+                <!-- Header -->
+                <Label Text="TradNativo"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="#C1A85B"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       Margin="0,30,0,10" />
+
+                <!-- Featured Image Section -->
+                <Grid>
+                    <Image Source="rio.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="250"
+                           WidthRequest="400" />
+
+                    <!-- Overlay Text -->
+                    <StackLayout 
+                        VerticalOptions="Center" 
+                        HorizontalOptions="Center">
+                        
+                        <Label Text="Descubre el Amazonas"
+                               FontSize="26"
+                               TextColor="White"
+                               HorizontalOptions="Center"
+                               />
+                        <Label Text="El Pulmón del Mundo!"
+                               FontSize="18"
+                               TextColor="White"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,0" 
+                               />
+                        <Button Text="DISCOVER NOW"
+                                FontAttributes="Bold"
+                                BackgroundColor="#C1A85B"
+                                TextColor="White"
+                                CornerRadius="20"
+                                Margin="0,15,0,0"
+                                HeightRequest="50"
+                                WidthRequest="180" 
+                                />
+                    </StackLayout>
+                </Grid>
+
+                <!-- Separator Line -->
+                <BoxView Color="Transparent"
+                         HeightRequest="1"
+                         WidthRequest="400"
+                         HorizontalOptions="Center"
+                         Margin="0,20,0,20"
+                         />
+
+                <!-- Section Title -->
+                <Label Text="Where to eat"
+                       FontSize="20"
+                       TextColor="Gray"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,10" />
+
+                <!-- Restaurant Card -->
+                <Frame 
+                    BackgroundColor="#2B2B2B" 
+                    CornerRadius="10" 
+                    Padding="10" 
+                    Margin="20">
+                    
+                    <VerticalStackLayout>
+                        <Image Source="noticia2.png"
+                               Aspect="AspectFill"
+                               HeightRequest="150"
+                               />
+
+                        <!-- Restaurant Info -->
+                        <HorizontalStackLayout VerticalOptions="Center" Spacing="10" Margin="0,10,0,0">
+                            <Label Text="9382 km"
+                                   FontSize="14"
+                                   TextColor="White"
+                                   BackgroundColor="#C1A85B"
+                                   Padding="5,2"
+                                   VerticalOptions="Center" />
+                            <Label Text="Caffe Bartolo"
+                                   FontSize="18"
+                                   FontAttributes="Bold"
+                                   TextColor="White"
+                                   VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout VerticalOptions="Center" Spacing="5">
+                            <Image Source="icono_location.png"
+                                   WidthRequest="20"
+                                   HeightRequest="20"
+                                   VerticalOptions="Center" />
+                            <Label Text="Via Cola di Rienzo Roma Roma"
+                                   FontSize="14"
+                                   TextColor="White"
+                                   VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

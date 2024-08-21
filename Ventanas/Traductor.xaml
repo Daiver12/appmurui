@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Ventanas.Traductor"
+             Title="Traductor"
+             BackgroundColor="#D1C9B0">
+
+    <ContentPage.Content>
+        <VerticalStackLayout Padding="10" Spacing="20">
+
+            <!-- titulo -->
+            <Label 
+                Text="Traductor"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="Black"
+                BackgroundColor="#FFAA44"
+                Padding="15"
+                VerticalOptions="Start" />
+
+            <!-- seccion 1 -->
+            <Label 
+                Text="Español"
+                FontSize="30"
+                TextColor="White"
+                HorizontalOptions="Start"
+                Margin="10,0,0,0"
+                />
+
+            <Frame 
+                BackgroundColor="#33271C" 
+                CornerRadius="10" 
+                Padding="10" 
+                HasShadow="True"
+                VerticalOptions="Start">
+                <Grid>
+                    <Editor 
+                        Placeholder="Introduzca el texto"
+                        FontSize="20"
+                        AutoSize="TextChanges"
+                        TextColor="White"
+                        MaxLength="250"
+                        TextChanged="limitecaracter"
+                        x:Name="espanol"
+                        />
+                    <Label
+                        Text="Caracteres 0/250 "
+                        FontSize="20"
+                        TextColor="White"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        x:Name="contadorcaracter"
+                        />
+
+                </Grid>
+            </Frame>
+
+            <!-- intercambio de idioma -->
+            <Image 
+                Source="iconoflechasorden.png" 
+                WidthRequest="40" 
+                HeightRequest="40" 
+                HorizontalOptions="Center" />
+
+            <!-- seccion de traduccion -->
+            <Label 
+                Text="Murui"
+                FontSize="20"
+                TextColor="White"
+                HorizontalOptions="Start"
+                Margin="10,0,0,0" />
+
+            <Frame 
+                BackgroundColor="#33271C"
+                CornerRadius="10" 
+                Padding="10" 
+                HasShadow="True"
+                VerticalOptions="Start">
+                <Grid>
+                    <Label 
+                        Text="Traducción"
+                        FontSize="16"
+                        TextColor="White"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start" />
+
+                    <Button 
+                        ImageSource="iconoaudio.png"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        BackgroundColor="Transparent" />
+                </Grid>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

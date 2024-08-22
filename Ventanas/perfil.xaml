@@ -3,28 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Ventanas.perfil"
              Title="Perfil"         
-             BackgroundColor="Transparent">
+             BackgroundColor="#D2BD7C">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="1*" />
+            <RowDefinition 
+                Height="2*" />
+            <RowDefinition 
+                Height="1*" />
+            <RowDefinition 
+                Height="1*" />
+            <RowDefinition 
+                Height="1*" />
+            <RowDefinition 
+                Height="1*" />
+            <RowDefinition 
+                Height="1*" />
         </Grid.RowDefinitions>
 
         <Image Grid.Row="0"
                Source="perfil.png"
-               BackgroundColor="White"
                HorizontalOptions="Center"
                VerticalOptions="End"
                WidthRequest="100"
                HeightRequest="100"/>
 
         <Entry Grid.Row="1"
-               Placeholder="Username"
+               Placeholder="Usuario"
                HorizontalOptions="Center"
                VerticalOptions="Center"
                WidthRequest="250"
@@ -35,7 +40,7 @@
                PlaceholderColor="Gray"/>
 
         <Entry Grid.Row="2"
-               Placeholder="Password"
+               Placeholder="Contraseña"
                IsPassword="True"
                HorizontalOptions="Center"
                VerticalOptions="Center"
@@ -57,20 +62,39 @@
                 CornerRadius="25"
                 Margin="0,20,0,0"/>
 
-        <StackLayout Grid.Row="4" Orientation="Horizontal" HorizontalOptions="Center">
-            <CheckBox IsChecked="False"/>
-            <Label Text="Remember me" VerticalOptions="Center"/>
-            <Label Text="Forgot password?" TextColor="Blue" VerticalOptions="Center" Margin="20,0,0,0"/>
+        <StackLayout 
+            Grid.Row="4" 
+            Orientation="Horizontal" 
+            HorizontalOptions="Center">
+            <CheckBox 
+                IsChecked="False"/>
+            <Label 
+                Text="Recordarme" 
+                VerticalOptions="Center"
+                TextColor="Black"
+                />
+            <Label 
+                Text="Olvido su contraseña?" 
+                TextColor="Blue" 
+                VerticalOptions="Center"
+                Margin="20,0,0,0"/>
         </StackLayout>
 
-        <StackLayout Grid.Row="5" HorizontalOptions="Center">
-            <Label Text="Not a member?" HorizontalOptions="Center"/>
-            <Button Text="Create account"
-                    HorizontalOptions="Center"
-                    BackgroundColor="Transparent"
-                    TextColor="Blue"
-                    x:Name="Crearperfil"
-                    Clicked="Crearperfil_Clicked"/>
+        <StackLayout 
+            Grid.Row="5"
+            HorizontalOptions="Center">
+            <Label 
+                Text="No tienes cuenta?" 
+                HorizontalOptions="Center"
+                TextColor="Black"
+                />
+            <Button 
+                Text="Crear cuenta"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="Blue"
+                x:Name="Crearperfil"
+                Clicked="Crearperfil_Clicked"/>
         </StackLayout>
     </Grid>
 </ContentPage>

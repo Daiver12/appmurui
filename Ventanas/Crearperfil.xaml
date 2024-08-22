@@ -3,88 +3,89 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Ventanas.Crearperfil"
              Title="Crearperfil"
-             BackgroundColor="Black">
+             BackgroundColor="#D2BD7C">
     <ContentPage.Content>
         <VerticalStackLayout Padding="30" Spacing="20">
 
-            <!-- Title Label -->
-            <Label Text="Create Your Account"
-                   FontSize="26"
-                   FontAttributes="Bold"
-                   TextColor="White"
-                   HorizontalOptions="Start" />
+            <Label 
+                Text="Crea tu ceunta"
+                FontSize="26"
+                FontAttributes="Bold"
+                TextColor="Black"
+                HorizontalOptions="CenterAndExpand"
+                />
 
-            <!-- Full Name Entry -->
-            <Entry Placeholder="Full Name"
-                   TextColor="Red"
-                   PlaceholderColor="Gray"
-                   HeightRequest="50"
-                   BackgroundColor="White" />
+            <Entry 
+                Placeholder="Nombre Completo"
+                TextColor="Black"
+                PlaceholderColor="Gray"
+                HeightRequest="50"
+                BackgroundColor="White"
+                WidthRequest="500"
+                Margin="0,15,0,0"                
+                />
+            
+            <Entry 
+                Placeholder="Correo electronico"
+                TextColor="Black"
+                PlaceholderColor="Gray"
+                HeightRequest="50"
+                BackgroundColor="White"
+                WidthRequest="500"
+                Margin="0,15,0,0"  
+                />
+            
+            <Entry 
+                Placeholder="Password"
+                IsPassword="True"
+                TextColor="Black"
+                PlaceholderColor="Gray"
+                HeightRequest="50"
+                BackgroundColor="White"
+                WidthRequest="500"
+                Margin="0,15,0,0"  
+                />
 
-            <!-- Email or Phone Entry -->
-            <Entry Placeholder="Phone or Gmail"
-                   TextColor="Red"
-                   PlaceholderColor="Gray"
-                   HeightRequest="50"
-                   BackgroundColor="White" />
+            <Entry 
+                Placeholder="Confirm Password"
+                IsPassword="True"
+                TextColor="Black"
+                PlaceholderColor="Gray"
+                HeightRequest="50"
+                BackgroundColor="White"
+                WidthRequest="500"
+                Margin="0,15,0,0"  
+                />
 
-            <!-- Password Entry -->
-            <Entry Placeholder="Password"
-                   IsPassword="True"
-                   TextColor="Red"
-                   PlaceholderColor="Gray"
-                   HeightRequest="50"
-                   BackgroundColor="White" />
-
-            <!-- Confirm Password Entry -->
-            <Entry Placeholder="Confirm Password"
-                   IsPassword="True"
-                   TextColor="Red"
-                   PlaceholderColor="Gray"
-                   HeightRequest="50"
-                   BackgroundColor="White" />
-
-            <!-- Sign Up Button -->
-            <Button Text="SIGN UP"
-                    FontAttributes="Bold"
-                    BackgroundColor="#A020F0"
-                    TextColor="White"
-                    HeightRequest="50"
-                    CornerRadius="25" />
-
-            <!-- Sign In Option 
-            <HorizontalStackLayout 
-                HorizontalOptions="Center" 
-                Margin="0,20,0,0">
-                
-                <Label 
-                    Text="Don’t have account?" 
-                    TextColor="White"
-                    />
-                
-                <Label 
-                    Text="Sign In" 
-                    TextColor="Blue" 
-                    FontAttributes="Bold"
-                    />
-                
-            </HorizontalStackLayout>-->
+            <Button 
+                Text="SIGN UP"
+                FontAttributes="Bold"
+                BackgroundColor="#A020F0"
+                TextColor="White"
+                HeightRequest="50"
+                CornerRadius="25"
+                WidthRequest="500"
+                Margin="0,15,0,15"  
+                />
 
             <StackLayout 
                 Grid.Row="5"
                 HorizontalOptions="Center">
                 
                 <Label 
-                    Text="Don’t have account" 
+                    Text="Ya tienes cuenta?" 
                     HorizontalOptions="Center"
+                    TextColor="Black"
                     />
 
-                <Button Text="Sign In"
-                        HorizontalOptions="Center"
-                        BackgroundColor="Transparent"
-                        TextColor="Blue"
-                        x:Name="iniciarsesion"
-                        Clicked="iniciarsesion_Clicked"/>
+                <Button 
+                    Text="Sign In"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Transparent"
+                    TextColor="Blue"
+                    x:Name="iniciarsesion"
+                    Clicked="iniciarsesion_Clicked"
+                    />
             </StackLayout>
             
         </VerticalStackLayout>

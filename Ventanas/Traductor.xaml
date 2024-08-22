@@ -23,7 +23,7 @@
             <Label 
                 Text="Español"
                 FontSize="30"
-                TextColor="White"
+                TextColor="Black"
                 HorizontalOptions="Start"
                 Margin="10,0,0,0"
                 />
@@ -66,8 +66,8 @@
             <!-- seccion de traduccion -->
             <Label 
                 Text="Murui"
-                FontSize="20"
-                TextColor="White"
+                FontSize="30"
+                TextColor="Black"
                 HorizontalOptions="Start"
                 Margin="10,0,0,0" />
 

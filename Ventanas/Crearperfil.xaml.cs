@@ -7,8 +7,8 @@ public partial class Crearperfil : ContentPage
 		InitializeComponent();
 	}
 
-    private void iniciarsesion_Clicked(object sender, EventArgs e)
+    private async void iniciarsesion_Clicked(object sender, EventArgs e)
     {
-		Shell.Current.GoToAsync(nameof(perfil));
+        await Shell.Current.Navigation.PopAsync();
     }
 }

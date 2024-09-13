@@ -60,13 +60,17 @@
 	  <None Remove="Resources\Images\aplogo.png" />
 	  <None Remove="Resources\Images\iconoaudio.png" />
 	  <None Remove="Resources\Images\iconoflechasorden.png" />
+	  <None Remove="Resources\Images\iconogeoinfo2.png" />
 	  <None Remove="Resources\Images\icono_location.png" />
 	  <None Remove="Resources\Images\logo3.png" />
 	  <None Remove="Resources\Images\logohome.png" />
 	  <None Remove="Resources\Images\logologin.png" />
+	  <None Remove="Resources\Images\maloca.png" />
 	  <None Remove="Resources\Images\noticia2.png" />
 	  <None Remove="Resources\Images\perfil.png" />
+	  <None Remove="Resources\Images\puntolounge.jpg" />
 	  <None Remove="Resources\Images\rio.jpg" />
+	  <None Remove="Resources\Images\tierrasamazonicas.png" />
 	  <None Remove="Resources\Images\traductor.png" />
 	</ItemGroup>
 
@@ -74,6 +78,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>

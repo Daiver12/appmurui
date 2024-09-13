@@ -21,20 +21,21 @@
                 PlaceholderColor="Gray"
                 HeightRequest="50"
                 BackgroundColor="White"
-                WidthRequest="500"
+                WidthRequest="250"
                 Margin="0,15,0,0"                
                 />
-            
+
             <Entry 
                 Placeholder="Correo electronico"
                 TextColor="Black"
                 PlaceholderColor="Gray"
                 HeightRequest="50"
                 BackgroundColor="White"
-                WidthRequest="500"
-                Margin="0,15,0,0"  
+                WidthRequest="250"
+                Margin="0,15,0,0"
+                Text="{Binding Email}"
                 />
-            
+
             <Entry 
                 Placeholder="Password"
                 IsPassword="True"
@@ -42,8 +43,9 @@
                 PlaceholderColor="Gray"
                 HeightRequest="50"
                 BackgroundColor="White"
-                WidthRequest="500"
-                Margin="0,15,0,0"  
+                WidthRequest="250"
+                Margin="0,15,0,0"
+                Text="{Binding Pass}"
                 />
 
             <Entry 
@@ -53,7 +55,7 @@
                 PlaceholderColor="Gray"
                 HeightRequest="50"
                 BackgroundColor="White"
-                WidthRequest="500"
+                WidthRequest="250"
                 Margin="0,15,0,0"  
                 />
 
@@ -64,14 +66,15 @@
                 TextColor="White"
                 HeightRequest="50"
                 CornerRadius="25"
-                WidthRequest="500"
-                Margin="0,15,0,15"  
+                WidthRequest="300"
+                Margin="0,15,0,15"
+                Command="{Binding RegistroUser}"
                 />
 
             <StackLayout 
                 Grid.Row="5"
                 HorizontalOptions="Center">
-                
+
                 <Label 
                     Text="Ya tienes cuenta?" 
                     HorizontalOptions="Center"
@@ -87,7 +90,7 @@
                     Clicked="iniciarsesion_Clicked"
                     />
             </StackLayout>
-            
+
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

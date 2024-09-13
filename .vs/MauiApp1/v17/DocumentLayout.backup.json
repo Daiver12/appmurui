@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\traductor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\traductor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\traductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\traductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\perfil.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\perfil.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\informacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\informacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\informacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\informacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\crearperfil.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\crearperfil.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\crearperfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\crearperfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\login\\modeloregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\login\\modeloregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\login\\modelologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\login\\modelologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +87,222 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:49:47.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:49:07.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:49:04.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:48:58.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:48:56.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:48:52.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Traductor.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Traductor.xaml.cs",
+              "RelativeDocumentMoniker": "Ventanas\\Traductor.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Traductor.xaml.cs",
+              "RelativeToolTip": "Ventanas\\Traductor.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:48:37.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Traductor.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Traductor.xaml",
+              "RelativeDocumentMoniker": "Ventanas\\Traductor.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Traductor.xaml",
+              "RelativeToolTip": "Ventanas\\Traductor.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:47:43.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "perfil.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\perfil.xaml.cs",
+              "RelativeDocumentMoniker": "Ventanas\\perfil.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\perfil.xaml.cs",
+              "RelativeToolTip": "Ventanas\\perfil.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:46:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "perfil.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\perfil.xaml",
+              "RelativeDocumentMoniker": "Ventanas\\perfil.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\perfil.xaml",
+              "RelativeToolTip": "Ventanas\\perfil.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwGwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:46:10.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Inicio.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Inicio.xaml",
+              "RelativeDocumentMoniker": "Ventanas\\Inicio.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Inicio.xaml",
+              "RelativeToolTip": "Ventanas\\Inicio.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:46:00.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Informacion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Informacion.xaml.cs",
+              "RelativeDocumentMoniker": "Ventanas\\Informacion.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Informacion.xaml.cs",
+              "RelativeToolTip": "Ventanas\\Informacion.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:45:59.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Informacion.xaml",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Informacion.xaml",
+              "RelativeDocumentMoniker": "Ventanas\\Informacion.xaml",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Informacion.xaml",
+              "RelativeToolTip": "Ventanas\\Informacion.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T17:45:16.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ModeloRegister.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Login\\ModeloRegister.cs",
+              "RelativeDocumentMoniker": "Ventanas\\Login\\ModeloRegister.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Login\\ModeloRegister.cs",
+              "RelativeToolTip": "Ventanas\\Login\\ModeloRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:41:35.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Crearperfil.xaml",
               "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Crearperfil.xaml",
               "RelativeDocumentMoniker": "Ventanas\\Crearperfil.xaml",
               "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Crearperfil.xaml",
               "RelativeToolTip": "Ventanas\\Crearperfil.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-18T00:52:52.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Crearperfil.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Crearperfil.xaml.cs",
+              "RelativeDocumentMoniker": "Ventanas\\Crearperfil.xaml.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Crearperfil.xaml.cs",
+              "RelativeToolTip": "Ventanas\\Crearperfil.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T13:52:39.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModeloLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Login\\ModeloLogin.cs",
+              "RelativeDocumentMoniker": "Ventanas\\Login\\ModeloLogin.cs",
+              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Login\\ModeloLogin.cs",
+              "RelativeToolTip": "Ventanas\\Login\\ModeloLogin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:41:17.746Z",
               "EditorCaption": ""
             }
           ]

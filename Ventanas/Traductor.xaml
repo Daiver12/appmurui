@@ -7,15 +7,15 @@
 
     <ContentPage.Content>
         <VerticalStackLayout Padding="10" Spacing="20">
-
+            
             <!-- titulo -->
             <Label 
-                Text="Traductor"
+                Text="TradNativo Traductor"
                 FontSize="30"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 TextColor="Black"
-                BackgroundColor="#FFAA44"
+                BackgroundColor="#D1C9B0"
                 Padding="15"
                 VerticalOptions="Start" />
 
@@ -26,6 +26,7 @@
                 TextColor="Black"
                 HorizontalOptions="Start"
                 Margin="10,0,0,0"
+                x:Name="InputLabel"
                 />
 
             <Frame 
@@ -45,6 +46,7 @@
                         x:Name="espanol"
                         />
                     <Label
+                        Margin="0,100,10,10"
                         Text="Caracteres 0/250 "
                         FontSize="20"
                         TextColor="White"
@@ -57,11 +59,20 @@
             </Frame>
 
             <!-- intercambio de idioma -->
-            <Image 
-                Source="iconoflechasorden.png" 
-                WidthRequest="40" 
-                HeightRequest="40" 
-                HorizontalOptions="Center" />
+            <ImageButton 
+                Source="iconoflechasorden.png"
+                WidthRequest="50" 
+                HeightRequest="50" 
+                HorizontalOptions="Center"
+                Clicked="CambiodeIdioma"
+                />
+
+            <Button 
+                Text="Traducir"
+                WidthRequest="100"
+                HeightRequest="0"
+                HorizontalOptions="CenterAndExpand"
+                />
 
             <!-- seccion de traduccion -->
             <Label 
@@ -69,7 +80,9 @@
                 FontSize="30"
                 TextColor="Black"
                 HorizontalOptions="Start"
-                Margin="10,0,0,0" />
+                Margin="10,0,0,0" 
+                x:Name="OutputLabel"
+                />
 
             <Frame 
                 BackgroundColor="#33271C"
@@ -78,12 +91,15 @@
                 HasShadow="True"
                 VerticalOptions="Start">
                 <Grid>
-                    <Label 
-                        Text="Traducción"
+                    <Editor 
+                        Placeholder="Traducción"
                         FontSize="16"
                         TextColor="White"
                         VerticalOptions="Center"
-                        HorizontalOptions="Start" />
+                        HorizontalOptions="Start"
+                        IsReadOnly="True"
+                        x:Name="OutputText"
+                        />
 
                     <Button 
                         ImageSource="iconoaudio.png"
